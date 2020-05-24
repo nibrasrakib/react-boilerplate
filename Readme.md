@@ -2,7 +2,7 @@
 
 
 ## Quick Overview
-Simple React Boilerplate for general use. It is possible to extend easily. Provided some comment at the bottom for all possible configuration file.
+Simple React Boilerplate for general use. It is possible to extend this boilerplate. Provided some comment at the bottom for all possible configuration file.
 
 * Yarn
 * webpack
