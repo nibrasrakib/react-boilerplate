@@ -2,7 +2,7 @@
 
 
 ## Quick Overview
-Simple React Boilerplate for general use. It is possible to extend easily. Provided some comment for possible all the configuration file from following link.
+Simple React Boilerplate for general use. It is possible to extend easily. Provided some comment at the bottom for all possible configuration file.
 
 * Yarn
 * webpack
@@ -51,6 +51,6 @@ ES5 code like object or array.
 ## .eslintrc
 The config is basically saying, "Hey ESLint, please parse the code using babel-eslint before you check it, and when you're checking it, please check if all the rules from our React rules config is passed. take global variables from the environment of browser and node. Oh, and if it's React code, take the version from the module itself. That way the user won't have to specify version manually."
 
-## A big thanks to the following @nathansebhastian
+## A big thanks to the @nathansebhastian
 
 https://www.codementor.io/@nathansebhastian/step-by-step-react-configuration-from-scratch-to-deployment-rn4i4qp6a#deploying-react-app-to-netlify
