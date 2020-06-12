@@ -9,6 +9,9 @@ Simple React Boilerplate for general use. It is possible to extend this boilerpl
 * Babel
 * Less
 * Prettier
+* Reudx
+
+Pages returns a view with increment and decrement button which are connected with Redux store.
 
 ### If you have a user defined script named package.json, change in package.json and use yarn start [command].
 

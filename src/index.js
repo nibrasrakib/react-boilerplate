@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import store from './store';
+import Welcome from './app';
+
 import './style/main.less';
 
-class Welcome extends React.Component {
-  render() {
-    return <h1 className="header">Hello World from React boilerplate</h1>;
-  }
-}
-
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}><Welcome /></Provider>, document.getElementById('root'));
