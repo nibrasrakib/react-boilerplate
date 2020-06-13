@@ -13,6 +13,11 @@ Simple React Boilerplate for general use. It is possible to extend this boilerpl
 
 Pages returns a view with increment and decrement button which are connected with Redux store.
 
+## Build Procedure
+
+* It will clean the build directory
+* It will copy the entire direcoty named static which resides in public folder
+
 ### If you have a user defined script named package.json, change in package.json and use yarn start [command].
 
 ## yarn install
