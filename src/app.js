@@ -6,7 +6,7 @@ class Welcome extends React.Component {
         return (
             <div>
                 <h1 className="header">
-                    Hello World from React boilerplate with Redux store New
+                    Hello World from React boilerplate with Redux store
                 </h1>
                 <br />
                 <Button />
